@@ -8,7 +8,7 @@
             </a>
           </div>
         <div class="text-center mb-4">
-            <h1 class="h3 mb-0">Please sign in</h1>
+            <h1 class="h3 mb-0">Please sign in to Housedealssafrica</h1>
             <p>Signin to manage your account.</p>
         </div>
         @if(session()->has('error'))
