@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 
-Route::view('/home', 'home')->middleware('auth')->name('home');
+Route::view('/home', 'home')->name('home');
 Route::group(['middleware' => 'auth:admin'], function () {
 });
 
