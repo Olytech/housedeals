@@ -8,7 +8,7 @@
             </a>
           </div>
         <div class="text-center mb-4">
-            <h1 class="h3 mb-0">Please sign in to Housedealssafrica</h1>
+            <h1 class="h3 mb-0">Please sign in to House Deals Africa</h1>
             <p>Signin to manage your account.</p>
         </div>
         @if(session()->has('error'))
@@ -84,6 +84,6 @@
               </button>
             </div>
         </div>
-        <p class="small text-center text-muted mb-0">All rights reserved. © HouseDealAfrica. 2021 housedealafrica.com</p>
+        <p class="small text-center text-muted mb-0">All rights reserved. © House Deals Africa. 2021 housedealafrica.com</p>
     </form>
 </div>
