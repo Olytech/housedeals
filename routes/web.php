@@ -88,7 +88,7 @@ Route::group(['middleware' => ['auth', 'partners'], 'prefix' => 'partners'], fun
 
     Route::get('/advert', 'PartnersPageController@advert')->name('partners.advert');
 
-    Route::get('/transactions', 'PartnersPageControlletransactions')->name('partnertransactions');
+    Route::get('/transactions', 'PartnersPageController@transactions')->name('partnertransactions');
 
 });
 
