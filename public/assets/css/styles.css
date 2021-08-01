@@ -4,7 +4,7 @@
 /* =============== */
 
 body {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     display: flex;
@@ -34,14 +34,14 @@ img {
 
 .btn-primary {
     color: #fff !important;
-    background-color: #1BA262 !important;
-    border-color: #1BA262 !important;
+    background-color: #00bfb5 !important;
+    border-color: #00bfb5 !important;
     padding: 1em;
 }
 .btn-primary:hover {
     color: #fff !important;
-    background-color: #168652 !important;
-    border-color: #168652 !important;
+    background-color: #00bfb5 !important;
+    border-color: #00bfb5 !important;
     padding: 1em;
 }
 .btn-group-sm>.btn, .btn-sm {
@@ -51,7 +51,7 @@ img {
     border-radius: .2rem;
 }
 a {
-    color: #21c87a;
+    color: #00bfb5;
     text-decoration: none;
     background-color: transparent;
 }
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
-    background-color:#21C87A;
+    background-color:#00bfb5;
     box-shadow: none !important;
 }
 .custom-control-label:before{
